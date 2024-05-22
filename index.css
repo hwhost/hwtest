@@ -4,6 +4,27 @@ h1 {
     color: white;
 }
 
+a {
+    color: white;
+}
+
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: darkgray;
+    background-color: #262626;
+    text-decoration: none;
+    margin: 5px;
+    text-align: center;
+    line-height: 1.1em;
+    white-space: pre-line;
+}
+
+button {
+    background-color: #262626;
+}
+
 h2 {
     color: white;
     text-align: center;
@@ -33,12 +54,12 @@ table {
 }
 
 table tr th {
-    padding: 5px;
-    background-color: #363636;
+    background-color: #464646;
 }
 
 table tr:nth-child(1) th:nth-child(1) {
-    background-color: #363636;
+    padding: 5px;
+    background-color: #464646;
 }
 
 table tr th {

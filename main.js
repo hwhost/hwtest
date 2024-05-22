@@ -36,9 +36,13 @@ async function setElement(cellText){
         cellElement.src = cellText;
         return cellElement;
     } else if(cellText.includes("://")){
-        const cellElement = document.createElement("a");
+        const cellElement = document.createElement("td");
+        const link = document.createElement("a");
+        const linkElement = cellElement.appendChild(link);
+        linkElement.setAttribute("href", cellText);
+        linkElement.setAttribute("class", "button");
+        linkElement.textContent = "Link";
         
-        cellElement.textContent = cellText;
         return cellElement;
     }
     else{
