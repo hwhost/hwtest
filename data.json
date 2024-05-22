@@ -1,0 +1,22 @@
+{
+    "headers": [
+        "Name",
+        "Image",
+        "Grade",
+        "Date"
+    ],
+    "rows": [
+        [
+            "Skeletal Concept Map",
+            "./bob.png",
+            "84/100\nB",
+            "5/21/2024"
+        ],
+        [
+            "FABER MUST GET TP'D",
+            "./bob.png",
+            "0/100 F",
+            "Today"
+        ]
+    ]
+}

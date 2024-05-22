@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+body {
+    background-color: #363636;
+}
+
+.hometable {
+    color: white;
+    text-align: center;
+    width: 800px;
+    align-content: center;
+    background-color: black;
+    margin: auto;
+}
+
+.tableitem {
+    white-space: pre-line;
+}
+table {
+    font-family: Arial;
+    border: 1px solid #262626;
+    line-height: 1.1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table tr th {
+    padding: 5px;
+    background-color: #363636;
+}
+
+table tr:nth-child(1) th:nth-child(1) {
+    background-color: #363636;
+}
+
+table tr th {
+    text-align: center;
+}
+table tr td {
+    text-align: center;
+    background-color: #262626;
+    color: darkgray;
+    margin: 15px;
+}
+
+table tr:nth-child(2n+1) td:nth-child(1n+2) {
+    background-color: #262626;
+}
