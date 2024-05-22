@@ -35,8 +35,11 @@ async function setElement(cellText){
         const cellElement = new Image(300,300);
         cellElement.src = cellText;
         return cellElement;
-    } else if(cellText.includes(".html")){
+    } else if(cellText.includes("://")){
+        const cellElement = document.createElement("a");
         
+        cellElement.textContent = cellText;
+        return cellElement;
     }
     else{
         const cellElement = document.createElement("td");
